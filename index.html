@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='index.css'>
+    <link rel="icon" href='./image/favicon.png'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <title>Snake Game</title>
+</head>
+<body>
+    <header>
+        <h1>Snake Game</h1>
+        <img src="./image/snake_logo.png" alt="snake_logo"/>
+        <div class="theme">
+            <img src="./image/dark_theme.svg" alt="change_theme" width="30" height="30"/>
+        </div>
+    </header>
+    <div class="score">
+        <img src="./image/apple.png" alt="score"/>
+        <h2>0</h2>
+        <img src="./image/trophy.png" alt="best_score"/>
+        <h2>0</h2>
+    </div>
+    <canvas id='board' height="660" width="1020"></canvas>
+    <button class="start">Start</button>
+    <button class="reset">Reset</button>
+    <script src='script.js'></script>
+</body>
+</html>

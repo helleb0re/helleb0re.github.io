@@ -1,0 +1,91 @@
+body {
+    font-family: 'Goldman', cursive;
+}
+
+#board {
+    display: flex;
+    margin: 15px auto;
+    border: 5px solid yellowgreen;
+    border-radius: 5px;
+    background-image: url('./image/field.png');
+}
+
+header {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    display: block;
+    margin: auto 15px auto 42%;
+    font-size: 40px;
+}
+
+header h1 + img {
+    margin-right: auto;
+}
+
+header div.theme {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    border: 2px solid yellowgreen;
+    border-radius: 15%;
+    box-shadow: 4px 4px 3px rgba(132, 132, 132, 0.2);
+}
+
+.dark_theme {
+    background: #181818;
+    color: white;
+}
+
+div.score {
+    display: flex;
+    justify-content: center;
+}
+
+div.score img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+div.score img:last-of-type {
+    margin-left: 15px;
+}
+
+div.score img:first-of-type {
+    margin-left: -5px;
+}
+
+div.score h2 {
+    margin: auto 0;
+}
+
+button {
+    display: block;
+    border-radius: 10px;
+    background-color: #7ee8fa;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+    box-shadow: 0 5px #666666;
+    font-family: 'Goldman', cursive;
+    font-weight: bold;
+    font-size: 24px;
+    height: 50px;
+    width: 100px;
+}
+
+button:active {
+    box-shadow: 0 2px #1f1f1f;
+    transform: translateY(4px);
+}
+
+button:first-of-type {
+    float: left;
+    margin: 0 20px 0 44.5%;
+}
